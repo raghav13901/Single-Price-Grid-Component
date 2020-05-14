@@ -1,0 +1,80 @@
+body{
+  padding: 15% 28%;
+  font-family: 'Karla', sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+h1{
+  font-weight: 900;
+  color: hsl(179, 62%, 43%);
+}
+h3{
+  font-weight: 900;
+  color: hsl(71, 73%, 54%);
+}
+.col-head{
+  font-size: 20px;
+  font-weight: 900;
+}
+.btn{
+  width: 100%;
+  color: white;
+  background-color:#81ef6a;
+  margin-top: 50px;
+}
+.price{
+  font-size: 26px;
+  font-weight: 900;
+}
+.head{
+  border-radius: 10px 10px 0 0;
+  padding: 5%;
+  background-color: #ffffff;
+  color: hsl(218, 22%, 67%);
+}
+.row{
+  margin: 0px;
+}
+.subscription{
+  border-radius: 0 0 0 10px;
+  padding: 5%;
+  color:hsl(204, 43%, 93%);
+  background-color: hsl(179, 62%, 43%);
+}
+.why-us{
+  border-radius: 0 0 10px 0;
+  padding: 5%;
+  color: hsl(204, 43%, 93%);
+  background-color: #5fc4c3;
+}
+.why{
+  font-size: 20px;
+}
+.content{
+  font-size: 90%;
+  color:#e9ecef;
+}
+@media only screen and (max-width:600px) {
+  body{
+    padding:5% 5%;
+    font-size: 90%;
+  }
+  h1{
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  h3{
+    font-size: 110%;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  .head{
+    padding-bottom: 25px;
+  }
+  .why-us{
+    border-radius: 0 0 10px 10px;
+  }
+  .subscription{
+    border-radius: 0 0 0 0;
+  }
+}
